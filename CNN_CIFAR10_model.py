@@ -72,7 +72,7 @@ class CNN(nn.Module):
 
 EPOCH = 200
 BATCH_SIZE = 128
-# LR = 0.015
+LR = 0.02
 MOMENTUM = 0.9
 DROUPOUT = 0.5
 DOWNLOAD_CIFAR = True
